@@ -1,0 +1,388 @@
+<Materials>
+	
+	<Reaction probability="20"
+		input_cell1="[slime]" 		input_cell2="aa_hungry_slime"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	<Reaction probability="5"
+		input_cell1="[slime]" 		input_cell2="bone_static"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	<Reaction probability="10"
+		input_cell1="aa_hungry_slime" 		input_cell2="bone_static"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="aa_hungry_slime" 		input_cell2="[blood]"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	
+	<Reaction probability="100"
+		input_cell1="item_box2d" 		input_cell2="aa_darkmatter"
+		output_cell1="item_box2d" 		output_cell2="void_liquid"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="aa_base_potion" 		input_cell2="aa_rice"
+		output_cell1="aa_meagre_offering" 		output_cell2="aa_rice"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="aa_base_potion" 		input_cell2="meat_confusion"
+		output_cell1="aa_cloning_solution" 		output_cell2="meat_confusion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="aa_base_potion" 		input_cell2="plant_material_red"
+		output_cell1="aa_love" 		output_cell2="plant_material_red"  
+		blob_radius1="10"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="aa_base_potion" 		input_cell2="rock_box2d"
+		output_cell1="aa_pop_rocks" 		output_cell2="rock_box2d"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="aa_base_potion" 		input_cell2="blood_cold"
+		output_cell1="aa_icy_inferno" 		output_cell2="blood_cold"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="item_box2d" 		input_cell2="aa_base_potion"
+		output_cell1="item_box2d" 		output_cell2="aa_condensed_gravity"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="plasma_fading" 		input_cell2="aa_base_potion"
+		output_cell1="plasma_fading" 		output_cell2="aa_pandorium"  
+		>
+	</Reaction>
+	
+	<Reaction probability="21"
+		input_cell1="aa_pandorium" 		input_cell2="alcohol"
+		output_cell1="aa_unstable_pandorium" 		output_cell2="alcohol"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="aa_base_potion" 					input_cell2="[lava]"
+		output_cell1="aa_base_potion" 		output_cell2="rock_static_grey"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+
+	<Reaction probability="1"
+		input_cell1="aa_soot" 		input_cell2="[static]"
+		output_cell1="aa_ash" 		output_cell2="[static]"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[magic_liquid]" 		input_cell2="sulphur_box2d"
+		output_cell1="aa_potion_gas" 		output_cell2="sulphur_box2d"  
+		>
+	</Reaction>
+	<Reaction probability="25"
+		input_cell1="blood_cold_vapour" 		input_cell2="aa_potion_gas"
+		output_cell1="blood_cold_vapour" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	<Reaction probability="20"
+		input_cell1="[slime]" 		input_cell2="bone_box2d"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	<Reaction probability="10"
+		input_cell1="[slime]" 		input_cell2="bone"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="aa_hungry_slime" 		input_cell2="bone"
+		output_cell1="aa_hungry_slime" 		output_cell2="aa_hungry_slime"  
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="aa_hungry_slime_growing" 		input_cell2="bone"
+		output_cell1="aa_hungry_slime_growing" 		output_cell2="aa_hungry_slime_growing"  
+		>
+	</Reaction>
+	
+	<Reaction probability="70"
+		input_cell1="[lava]" 		input_cell2="aa_hungry_slime"
+		output_cell1="[lava]" 		output_cell2="alcohol_gas"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="70"
+		input_cell1="[fire]" 		input_cell2="aa_hungry_slime"
+		output_cell1="[fire]" 		output_cell2="alcohol_gas"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="70"
+		input_cell1="[lava]" 		input_cell2="aa_hungry_slime_growing"
+		output_cell1="[lava]" 		output_cell2="alcohol_gas"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="70"
+		input_cell1="[fire]" 		input_cell2="aa_hungry_slime_growing"
+		output_cell1="[fire]" 		output_cell2="alcohol_gas"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="70"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_hungry_slime"
+		output_cell1="sulphur_box2d" 		output_cell2="alcohol_gas"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="70"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_hungry_slime_growing"
+		output_cell1="sulphur_box2d" 		output_cell2="alcohol_gas"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[lava]" 		input_cell2="aa_hitself"
+		output_cell1="[lava]" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[lava]" 		input_cell2="aa_darkmatter"
+		output_cell1="[lava]" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[lava]" 		input_cell2="aa_static_charge"
+		output_cell1="[lava]" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[lava]" 		input_cell2="aa_repultium"
+		output_cell1="[lava]" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[lava]" 		input_cell2="aa_arborium"
+		output_cell1="[lava]" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_hitself"
+		output_cell1="sulphur_box2d" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_darkmatter"
+		output_cell1="sulphur_box2d" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_static_charge"
+		output_cell1="sulphur_box2d" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_repultium"
+		output_cell1="sulphur_box2d" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sulphur_box2d" 		input_cell2="aa_arborium"
+		output_cell1="sulphur_box2d" 		output_cell2="aa_potion_gas"  
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="diamond" 		input_cell2="aa_base_potion"
+		output_cell1="diamond" 		output_cell2="aa_darkmatter"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="rotten_meat" 		input_cell2="aa_base_potion"
+		output_cell1="rotten_meat" 		output_cell2="aa_hitself"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="acid" 		input_cell2="aa_base_potion"
+		output_cell1="acid" 		output_cell2="aa_arborium"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="aa_base_potion" 		input_cell2="gem_box2d"
+		output_cell1="aa_static_charge" 		output_cell2="gem_box2d"  
+		blob_radius1="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="glass_box2d" 		input_cell2="aa_base_potion"
+		output_cell1="glass_box2d" 		output_cell2="aa_repultium"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="blood" 		input_cell2="aa_base_potion"
+		output_cell1="blood" 		output_cell2="magic_liquid_berserk"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="blood_fungi" 		input_cell2="aa_base_potion"
+		output_cell1="blood_fungi" 		output_cell2="material_confusion"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+	input_cell1="[magic_liquid]" 	input_cell2="lava"
+	output_cell1="aa_potion_gas" 	output_cell2="lava"
+	blob_radius1="4"
+	>
+    </Reaction>
+	<Reaction probability="80"
+		input_cell1="bluefungi_static" 		input_cell2="aa_base_potion"
+		output_cell1="bluefungi_static" 		output_cell2="magic_liquid_invisibility"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="fungus_loose" 		input_cell2="aa_base_potion"
+		output_cell1="fungus_loose" 		output_cell2="magic_liquid_charm"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="meat_helpless" 		input_cell2="aa_base_potion"
+		output_cell1="meat_helpless" 		output_cell2="magic_liquid_polymorph"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="magic_crystal" 		input_cell2="aa_base_potion"
+		output_cell1="magic_crystal" 		output_cell2="magic_liquid_worm_attractor"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="cocoon_box2d" 		input_cell2="aa_base_potion"
+		output_cell1="magic_liquid_protection_all" 		output_cell2="magic_liquid_protection_all"  
+		blob_radius1="2"
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="nest_box2d" 		input_cell2="aa_base_potion"
+		output_cell1="magic_liquid_protection_all" 		output_cell2="magic_liquid_protection_all"  
+		blob_radius1="2"
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="honey" 		input_cell2="aa_base_potion"
+		output_cell1="magic_liquid_protection_all" 		output_cell2="magic_liquid_protection_all"  
+		>
+	</Reaction>
+	
+
+	<Reaction probability="80"
+		input_cell1="brass" 		input_cell2="aa_base_potion"
+		output_cell1="brass" 		output_cell2="magic_liquid_teleportation"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="gunpowder_tnt" 		input_cell2="aa_base_potion"
+		output_cell1="gunpowder_tnt" 		output_cell2="magic_liquid_movement_faster"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="gunpowder" 		input_cell2="aa_base_potion"
+		output_cell1="gunpowder" 		output_cell2="magic_liquid_movement_faster"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="gunpowder_explosive" 		input_cell2="aa_base_potion"
+		output_cell1="gunpowder_explosive" 		output_cell2="magic_liquid_movement_faster"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="gunpowder_unstable" 		input_cell2="aa_base_potion"
+		output_cell1="gunpowder_unstable" 		output_cell2="magic_liquid_movement_faster"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="copper" 		input_cell2="aa_base_potion"
+		output_cell1="copper" 		output_cell2="magic_liquid_faster_levitation"  
+		blob_radius2="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_ash" 		input_cell2="[water]"
+		output_cell1="air" 		output_cell2="[water]"  
+		>
+	</Reaction>
+	
+
+</Materials>

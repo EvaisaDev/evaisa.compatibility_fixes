@@ -1,0 +1,16 @@
+<Materials>
+  
+  <CellDataChild
+  	_parent="spark"
+  	_inherit_reactions="1"
+  	name="shutthefuckupaboutyourtagsmaterial" 
+	ui_name="Material that only exists to make the game shut the fuck up."
+	wang_color="7feb43ba"
+	tags="[dont_kill_this][evaporable_by_fire]"
+	>
+  	<Graphics
+	color="7feb43ba" 
+	fire_colors_index="2" >
+    </Graphics>
+  </CellDataChild>
+</Materials>

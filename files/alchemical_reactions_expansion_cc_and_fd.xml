@@ -1,0 +1,100 @@
+<Materials>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="material_confusion_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+
+
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_movement_faster_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_faster_levitation_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_faster_levitation_and_movement_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_worm_attractor_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_protection_all_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_mana_regeneration_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_unstable_teleportation_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_teleportation_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_polymorph_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_random_polymorph_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_unstable_polymorph_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_berserk_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_charm_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="aa_potion_gas" 		input_cell2="magic_liquid_invisibility_vapour"
+		output_cell1="aa_potion_gas" 		output_cell2="aa_base_potion"  
+		>
+	</Reaction>	
+</Materials>

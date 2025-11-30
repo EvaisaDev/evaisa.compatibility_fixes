@@ -1,0 +1,819 @@
+<Materials>
+	<Reaction probability="50"
+		input_cell1="vomit"		input_cell2="radioactive_liquid"  
+		output_cell1="vomit"	output_cell2="urine"
+    >
+	</Reaction>
+  
+	<Reaction probability="100"
+		input_cell1="magic_liquid_charm" 				input_cell2="[blood]" 	input_cell3="[magic_polymorph]"
+		output_cell1="magic_liquid_charm" 	output_cell2="magic_liquid_hp_regeneration"		output_cell3="magic_liquid_hp_regeneration" 
+		blob_radius2="10"	blob_radius3="20"
+	>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="void_liquid" 				input_cell2="[alchemy]"
+		output_cell1="air" 	output_cell2="corruption_static"	
+	>
+	</Reaction>
+	
+	<Reaction probability="45"
+		input_cell1="material_confusion" 				input_cell2="gunpowder_tnt"
+		output_cell1="magic_liquid_movement_faster" 	output_cell2="magic_liquid_movement_faster"	
+	>
+	</Reaction>
+	
+	<Reaction probability="45"
+		input_cell1="material_confusion" 				input_cell2="gunpowder"
+		output_cell1="magic_liquid_movement_faster" 	output_cell2="magic_liquid_movement_faster"	
+	>
+	</Reaction>
+	
+	<Reaction probability="45"
+		input_cell1="material_confusion" 				input_cell2="gunpowder_explosive"
+		output_cell1="magic_liquid_movement_faster" 	output_cell2="magic_liquid_movement_faster"	
+	>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="magic_liquid_protection_all" 				input_cell2="gold"
+		output_cell1="smoke_magic" 	output_cell2="magic_gas_hp_regeneration"	
+		blob_radius1="5"
+		blob_radius2="5"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_gas_hp_regeneration" 				input_cell2="[alchemy]"
+		output_cell1="gunpowder_unstable" 	output_cell2="[alchemy]"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="corruption_static" 				input_cell2="[liquid]"
+		output_cell1="corruption_static" 	output_cell2="void_liquid"	
+		blob_radius2="5"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="void_liquid" 				input_cell2="[liquid]"
+		output_cell1="void_liquid" 	output_cell2="void_liquid"	
+		blob_radius2="3"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_mana_regeneration" 				input_cell2="alcohol"
+		output_cell1="magic_liquid_protection_all" 	output_cell2="magic_liquid_protection_all"	
+	>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="magic_liquid_protection_all" 				input_cell2="gold_box2d"
+		output_cell1="smoke_magic" 	output_cell2="magic_gas_hp_regeneration"	
+		blob_radius1="5"
+		blob_radius2="5"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="plasma_fading" 				input_cell2="radioactive_liquid"
+		output_cell1="magic_liquid" 	output_cell2="magic_liquid"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="plasma_fading" 				input_cell2="cloud_radioactive"
+		output_cell1="magic_liquid" 	output_cell2="magic_liquid"	
+	>
+	</Reaction>
+	
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrick_static"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templeslab_static"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templeslab_crumbling_static"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrick_static_soft"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrick_noedge_static"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrickdark_static"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templerock_soft"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrick_thick_static"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrick_static_broken"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid" 				input_cell2="templebrick_static_ruined"
+		output_cell1="magic_liquid" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_unstable_teleportation" 				input_cell2="blood"
+		output_cell1="plasma_fading" 	output_cell2="plasma_fading"	
+		blob_radius2="5"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime_green" 				input_cell2="moss"
+		output_cell1="pea_soup" 	output_cell2="pea_soup"	
+		blob_radius1="5"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime_green" 				input_cell2="peat"
+		output_cell1="pea_soup" 	output_cell2="pea_soup"	
+		blob_radius1="5"
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime" 				input_cell2="radioactive_liquid"
+		output_cell1="pea_soup" 	output_cell2="pea_soup"	
+		blob_radius1="2"	blob_radius2="2"
+	>
+	</Reaction>
+	
+	<Reaction probability="1"
+		input_cell1="[fire]" 		input_cell2="radioactive_liquid"
+		output_cell1="[fire]" 		output_cell2="radioactive_gas"  
+		>
+	</Reaction>
+  
+	<Reaction probability="100"
+		input_cell1="[lava]" 		input_cell2="sand"
+		output_cell1="[lava]" 		output_cell2="glass_static"  
+		blob_radius2="4"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="[lava]" 		input_cell2="sand_surface"
+		output_cell1="[lava]" 		output_cell2="glass_static"  
+		blob_radius2="4"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="[lava]" 		input_cell2="slime"
+		output_cell1="endslime" 		output_cell2="steam"  
+		blob_radius1="4"
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="fungi" 		input_cell2="air"
+		output_cell1="fungi" 		output_cell2="fungal_gas"  
+		direction="top"
+		>
+	</Reaction>
+	
+	<Reaction probability="3"
+		input_cell1="fungal_gas" 		input_cell2="[static]"
+		output_cell1="blood_fungi" 		output_cell2="[static]"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="urine" 		input_cell2="soil"
+		output_cell1="urine" 		output_cell2="poo"  
+		blob_radius2="4"
+		>
+	</Reaction>
+	
+	<Reaction probability="1"
+		input_cell1="poison_gas" 		input_cell2="[static]"
+		output_cell1="poison" 		output_cell2="[static]"  
+		blob_radius1="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="[lava]" 		input_cell2="cloud"
+		output_cell1="lavarock_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="[lava]" 		input_cell2="cloud_lighter"
+		output_cell1="lavarock_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="water" 		input_cell2="cloud"
+		output_cell1="ice_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="water" 		input_cell2="cloud_lighter"
+		output_cell1="ice_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="radioactive_liquid" 		input_cell2="cloud_lighter"
+		output_cell1="ice_radioactive_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="radioactive_liquid" 		input_cell2="cloud"
+		output_cell1="ice_radioactive_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="acid" 		input_cell2="cloud_lighter"
+		output_cell1="ice_acid_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="acid" 		input_cell2="cloud"
+		output_cell1="ice_acid_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="poison" 		input_cell2="cloud_lighter"
+		output_cell1="ice_poison_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="poison" 		input_cell2="cloud"
+		output_cell1="ice_poison_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="blood" 		input_cell2="cloud_lighter"
+		output_cell1="ice_blood_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="blood" 		input_cell2="cloud"
+		output_cell1="ice_blood_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime" 		input_cell2="cloud_lighter"
+		output_cell1="ice_slime_static" 		output_cell2="cloud_lighter"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime" 		input_cell2="cloud"
+		output_cell1="ice_slime_static" 		output_cell2="cloud"  
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="salt" 		input_cell2="snow"
+		output_cell1="salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="30"
+		input_cell1="water_salt" 		input_cell2="snow"
+		output_cell1="water_salt" 		output_cell2="slush"  
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="salt" 		input_cell2="ice_static"
+		output_cell1="salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="30"
+		input_cell1="water_salt" 		input_cell2="ice_static"
+		output_cell1="water_salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="salt" 		input_cell2="ice_glass"
+		output_cell1="salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="30"
+		input_cell1="water_salt" 		input_cell2="ice_glass"
+		output_cell1="water_salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="salt" 		input_cell2="snow_static"
+		output_cell1="salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="30"
+		input_cell1="water_salt" 		input_cell2="snow_static"
+		output_cell1="water_salt" 		output_cell2="slush"  
+		>
+	</Reaction>
+	
+	<Reaction probability="20"
+		input_cell1="salt" 		input_cell2="snow_sticky"
+		output_cell1="salt" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="30"
+		input_cell1="water_salt" 		input_cell2="snow_sticky"
+		output_cell1="water_salt" 		output_cell2="slush"  
+		>
+	</Reaction>
+	
+	<Reaction probability="1"
+		input_cell1="slush" 		input_cell2="water"
+		output_cell1="water" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="3"
+		input_cell1="slush" 		input_cell2="water_ice"
+		output_cell1="water_ice" 		output_cell2="water_ice"  
+		>
+	</Reaction>
+	
+	<Reaction probability="4"
+		input_cell1="[fire]" 		input_cell2="urine"
+		output_cell1="[fire]" 		output_cell2="salt" 
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="magic_liquid_worm_attractor" 		input_cell2="[magic_polymorph]"
+		output_cell1="magic_liquid_worm_attractor" 		output_cell2="magic_liquid_worm_attractor" 
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="blood_worm" 		input_cell2="water_salt"
+		output_cell1="cheese_static" 		output_cell2="water_salt"
+		blob_radius1="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="blood" 		input_cell2="magic_liquid_worm_attractor"
+		output_cell1="magic_liquid_berserk" 		output_cell2="magic_liquid_berserk"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="magic_liquid_unstable_polymorph" 		input_cell2="slime"
+		output_cell1="magic_liquid_polymorph" 		output_cell2="slime"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="magic_liquid_unstable_polymorph" 		input_cell2="cloud_slime"
+		output_cell1="magic_liquid_polymorph" 		output_cell2="cloud_slime"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="material_confusion" 		input_cell2="coal"
+		output_cell1="magic_liquid_teleportation" 		output_cell2="magic_liquid_teleportation"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_invisibility" 		input_cell2="[fire]"
+		output_cell1="magic_liquid_invisibility" 		output_cell2="magic_liquid_invisibility"
+		blob_radius2="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="slime" 		input_cell2="bluefungi_static"
+		output_cell1="magic_liquid_invisibility" 		output_cell2="bluefungi_static"
+		>
+	</Reaction>
+	
+	<Reaction probability="5"
+		input_cell1="blood_fungi" 		input_cell2="bluefungi_static"
+		output_cell1="material_confusion" 		output_cell2="bluefungi_static"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="blood_cold" 		input_cell2="oil"
+		output_cell1="wax" 		output_cell2="wax"
+		blob_radius2="4"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="blood_cold_vapour" 		input_cell2="oil"
+		output_cell1="blood_cold" 		output_cell2="wax"
+		blob_radius2="4"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="oil" 						input_cell2="[fire]"	input_cell3="magic_liquid_berserk"
+		output_cell1="plastic_red_molten" 		output_cell2="[fire]"	output_cell3="magic_liquid_berserk"
+		blob_radius1="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="5"
+		input_cell1="plastic_red_molten" 		input_cell2="[static]"
+		output_cell1="plastic_red" 		output_cell2="[static]"
+		>
+	</Reaction>
+	
+	<Reaction probability="3"
+		input_cell1="plastic_red_molten" 		input_cell2="plastic_red"
+		output_cell1="plastic_red" 		output_cell2="plastic_red"
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="blood_worm" 		input_cell2="water_ice"
+		output_cell1="purifying_powder" 		output_cell2="water_ice"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="diamond" 		input_cell2="sand"
+		output_cell1="diamond" 		output_cell2="sand_blue"
+		blob_radius2="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="diamond" 		input_cell2="sand_surface"
+		output_cell1="diamond" 		output_cell2="sand_blue"
+		blob_radius2="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="5"
+		input_cell1="sand_blue" 		input_cell2="sand"
+		output_cell1="sand" 		output_cell2="sand"
+		>
+	</Reaction>
+	
+	<Reaction probability="5"
+		input_cell1="sand_blue" 		input_cell2="sand_surface"
+		output_cell1="sand_surface" 		output_cell2="sand_surface"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sand_blue" 		input_cell2="[lava]"
+		output_cell1="diamond" 		output_cell2="[lava]"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="diamond" 		input_cell2="[lava]"
+		output_cell1="templebrick_diamond_static" 		output_cell2="[lava]"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="bone" 		input_cell2="[lava]"
+		output_cell1="coal" 		output_cell2="[lava]"
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="bone" 		input_cell2="sand"
+		output_cell1="sodium" 		output_cell2="sand"
+		blob_radius1="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sodium" 		input_cell2="[blood]"
+		output_cell1="gunpowder_unstable" 		output_cell2="[blood]"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="sodium" 		input_cell2="[water]"
+		output_cell1="gunpowder_unstable" 		output_cell2="[water]"
+		>
+	</Reaction>
+	
+	<Reaction probability="10"
+		input_cell1="blood_fungi" 		input_cell2="sand"
+		output_cell1="fungi" 		output_cell2="sand"
+		>
+	</Reaction>
+	
+	<Reaction probability="10"
+		input_cell1="blood_fungi" 		input_cell2="sand_surface"
+		output_cell1="fungi" 		output_cell2="sand_surface"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="blood_fungi" 		input_cell2="sand_blue"
+		output_cell1="fungi_green" 		output_cell2="sand_blue"
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="fungi_green" 		input_cell2="air"
+		output_cell1="fungi_green" 		output_cell2="sand_herb_vapour"  
+		direction="top"
+		>
+	</Reaction>
+	
+	<Reaction probability="5"
+		input_cell1="sand_herb_vapour" 		input_cell2="[static]"
+		output_cell1="fungi_green" 		output_cell2="[static]"  
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="fungi_green" 		input_cell2="air"
+		output_cell1="fungi_green" 		output_cell2="slime_green"  
+		direction="bottom"
+		>
+	</Reaction>
+	
+	<Reaction probability="80"
+		input_cell1="brass" 		input_cell2="radioactive_liquid"
+		output_cell1="brass" 		output_cell2="oil"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="poison" 		input_cell2="swamp"
+		output_cell1="poison" 		output_cell2="poison"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="poison" 		input_cell2="water_swamp"
+		output_cell1="poison" 		output_cell2="poison"  
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="poison" 		input_cell2="peat"
+		output_cell1="poison" 		output_cell2="poison"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		fast_reaction="1"
+		input_cell1="blood_cold_vapour" 		input_cell2="steelmoss_static"
+		output_cell1="blood_cold" 		output_cell2="steelfrost_static"  
+		blob_radius2="8"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		fast_reaction="1"
+		input_cell1="blood_cold_vapour" 		input_cell2="steel_static"
+		output_cell1="blood_cold" 		output_cell2="steelfrost_static"  
+		blob_radius2="8"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime" 		input_cell2="soil_dead"
+		output_cell1="poison" 		output_cell2="soil_dead"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="slime_green" 		input_cell2="soil_dead"
+		output_cell1="poison" 		output_cell2="soil_dead"  
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="[meltable_metal]" 		input_cell2="sulphur_box2d"
+		output_cell1="[lava]" 		output_cell2="sulphur_box2d"  
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="rock_static_wet" 		input_cell2="sulphur_box2d"
+		output_cell1="[lava]" 		output_cell2="sulphur_box2d"  
+		blob_radius1="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="rock_static_noedge" 		input_cell2="sulphur_box2d"
+		output_cell1="[lava]" 		output_cell2="sulphur_box2d"  
+		blob_radius1="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="rock_static_intro" 		input_cell2="sulphur_box2d"
+		output_cell1="[lava]" 		output_cell2="sulphur_box2d"  
+		blob_radius1="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="rock_static_grey" 		input_cell2="sulphur_box2d"
+		output_cell1="[lava]" 		output_cell2="sulphur_box2d"  
+		blob_radius1="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="rock_static" 		input_cell2="sulphur_box2d"
+		output_cell1="[lava]" 		output_cell2="sulphur_box2d"  
+		blob_radius1="5"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="coal_static" 		input_cell2="sulphur_box2d"
+		output_cell1="smoke" 		output_cell2="sulphur_box2d"  
+		>
+	</Reaction>
+
+	
+	<Reaction probability="80"
+		input_cell1="urine" 		input_cell2="sand_static"
+		output_cell1="air" 		output_cell2="poo"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="urine" 		input_cell2="soil_lush"
+		output_cell1="air" 		output_cell2="poo"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="urine" 		input_cell2="sand_static_rainforest"
+		output_cell1="air" 		output_cell2="poo"  
+		>
+	</Reaction>
+		
+	
+	<Reaction probability="50"
+		input_cell1="rock_static_radioactive" 		input_cell2="water"
+		output_cell1="rock_static_radioactive" 		output_cell2="radioactive_liquid"  
+		blob_radius2="10"
+		>
+	</Reaction>
+	
+	<Reaction probability="50"
+		input_cell1="rock_static_radioactive" 		input_cell2="water_swamp"
+		output_cell1="rock_static_radioactive" 		output_cell2="radioactive_liquid"  
+		blob_radius2="10"
+		>
+	</Reaction>
+
+	
+	<Reaction probability="50"
+		input_cell1="plasma_fading" 		input_cell2="water"
+		output_cell1="plasma_fading" 		output_cell2="magic_liquid_mana_regeneration"  
+		>
+	</Reaction>
+	
+
+	<Reaction probability="50"
+		input_cell1="magic_gas_hp_regeneration" 		input_cell2="[gas]"
+		output_cell1="air" 		output_cell2="[gas]"  
+		blob_radius1="3"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sulphur_box2d" 		input_cell2="snow_sticky"
+		output_cell1="sulphur_box2d" 		output_cell2="water"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sulphur_box2d" 		input_cell2="snow_static"
+		output_cell1="sulphur_box2d" 		output_cell2="water"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sulphur_box2d" 		input_cell2="snow"
+		output_cell1="sulphur_box2d" 		output_cell2="water"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sulphur_box2d" 		input_cell2="snowrock_static"
+		output_cell1="sulphur_box2d" 		output_cell2="rock_static"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sulphur_box2d" 		input_cell2="ice_glass"
+		output_cell1="sulphur_box2d" 		output_cell2="water"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="sulphur_box2d" 		input_cell2="ice_static"
+		output_cell1="sulphur_box2d" 		output_cell2="water"  
+		blob_radius2="2"
+		>
+	</Reaction>
+	
+	<Reaction probability="25"
+		input_cell1="void_liquid" 		input_cell2="air"
+		output_cell1="air" 		output_cell2="air"  
+		>
+	</Reaction>
+	
+	<Reaction probability="10"
+		input_cell1="void_liquid" 		input_cell2="corruption_static"
+		output_cell1="air" 		output_cell2="corruption_static"  
+		>
+	</Reaction>
+
+	
+	
+</Materials>

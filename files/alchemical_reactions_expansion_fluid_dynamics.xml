@@ -1,0 +1,90 @@
+<Materials>
+
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrick_static"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templeslab_static"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templeslab_crumbling_static"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrick_static_soft"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrick_noedge_static"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrickdark_static"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templerock_soft"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrick_thick_static"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrick_static_broken"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_vapour" 				input_cell2="templebrick_static_ruined"
+		output_cell1="magic_liquid_vapour" 	output_cell2="air"	
+	>
+	</Reaction>
+
+	
+	<Reaction probability="25"
+		input_cell1="glowshroom" 		input_cell2="air"
+		output_cell1="glowshroom" 		output_cell2="magic_liquid_invisibility_vapour"  
+		direction="top"
+		>
+	</Reaction>
+
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_worm_attractor_vapour" 		input_cell2="magic_liquid_polymorph_vapour"
+		output_cell1="magic_liquid_worm_attractor_vapour" 		output_cell2="magic_liquid_worm_attractor"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_worm_attractor_vapour" 		input_cell2="magic_liquid_random_polymorph_vapour"
+		output_cell1="magic_liquid_worm_attractor_vapour" 		output_cell2="magic_liquid_worm_attractor"  
+		>
+	</Reaction>
+	
+	<Reaction probability="100"
+		input_cell1="magic_liquid_worm_attractor_vapour" 		input_cell2="magic_liquid_unstable_polymorph_vapour"
+		output_cell1="magic_liquid_worm_attractor_vapour" 		output_cell2="magic_liquid_worm_attractor"  
+		>
+	</Reaction>
+		
+</Materials>
